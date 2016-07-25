@@ -1,6 +1,6 @@
 
 
-class String():
+class StringLib():
 
 	def __init__(self):
 		pass
@@ -13,7 +13,7 @@ class String():
 
 		return False
 
-	def reverse(self,str):
+	def reverse(self, str):
 		str_reverse = ''
 		lengh = len(str)
 		for i in range(lengh):
@@ -47,8 +47,3 @@ class String():
 				new_str += c
 
 		return new_str
-
-str = raw_input("Digite uma string: ");
-
-s = String()
-print s.replace_with(str,' ','%20')
